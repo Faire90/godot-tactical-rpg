@@ -30,21 +30,23 @@ func _process_tiles():
 
 func _process_pawns(var delta):
 	# init --
-	if self.turns_queue.empty():
+	if self.turns_queue.empty() == true:
 		if self.allies.empty():
 			for ally in $TRPGAllies.get_children():
 				ally.init(self)
 				ally.logic()
 				self.allies.push_back(ally)
-				self.turns_queue.push_back(ally)
 			#print("Area: ", self.allies.size(), " allies on the battlefield")
 		if self.enemies.empty():
 			for enemy in $TRPGEnemies.get_children():
 				enemy.init(self)
 				enemy.logic()
 				self.enemies.push_back(enemy)
-				self.turns_queue.push_back(enemy)
 			#print("Area: ", self.enemies.size(), " enemies on the battlefield")
+		for ally in $TRPGAllies.get_children():
+			self.turns_queue.push_back(ally)
+		for enemy in $TRPGEnemies.get_children():
+			self.turns_queue.push_back(enemy)
 	# turn-based system --
 	elif camera != null:
 		for pawn in self.turns_queue:
@@ -53,7 +55,7 @@ func _process_pawns(var delta):
 		var tile = self.camera.logic(delta, pawn)
 		if !pawn.act(delta, tile):
 			pawn.reset_acts()
-			self.turns_queue.push_back(self.turns_queue.pop_front())
+			self.turns_queue.pop_front() #self.turns_queue.push_back(self.turns_queue.pop_front())
 			self._reset()
 
 func _process_camera():

@@ -7,7 +7,6 @@
 [ext_resource path="res://data/trpg_enemy.tscn" type="PackedScene" id=5]
 
 [node name="TRPGArena" type="Spatial"]
-editor/display_folded = true
 script = ExtResource( 1 )
 
 [node name="TRPGTiles" type="Spatial" parent="."]
@@ -40,7 +39,7 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, -3 )
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -11, 2, 1 )
 
 [node name="TRGPTile106" parent="TRPGTiles" instance=ExtResource( 2 )]
-transform = Transform( -4.37114e-008, 0, -1, 0, 1, 0, 1, 0, -4.37114e-008, -3, 5, -21 )
+transform = Transform( -4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -3, 5, -21 )
 
 [node name="TRGPTile60" parent="TRPGTiles" instance=ExtResource( 2 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 3, -15 )
@@ -58,7 +57,7 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 3, -21 )
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, 1 )
 
 [node name="TRGPTile40" parent="TRPGTiles" instance=ExtResource( 2 )]
-transform = Transform( -4.37114e-008, 0, -1, 0, 1, 0, 1, 0, -4.37114e-008, -3, 3, -15 )
+transform = Transform( -4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -3, 3, -15 )
 
 [node name="TRGPTile2" parent="TRPGTiles" instance=ExtResource( 2 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, 1 )
@@ -70,7 +69,7 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 1, -9 )
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9, 2, 1 )
 
 [node name="TRGPTile109" parent="TRPGTiles" instance=ExtResource( 2 )]
-transform = Transform( -4.37114e-008, 0, -1, 0, 1, 0, 1, 0, -4.37114e-008, -3, 5, -19 )
+transform = Transform( -4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -3, 5, -19 )
 
 [node name="TRGPTile64" parent="TRPGTiles" instance=ExtResource( 2 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 3, -15 )
@@ -88,7 +87,7 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 3, -21 )
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, 1 )
 
 [node name="TRGPTile72" parent="TRPGTiles" instance=ExtResource( 2 )]
-transform = Transform( -4.37114e-008, 0, -1, 0, 1, 0, 1, 0, -4.37114e-008, -3, 3, -13 )
+transform = Transform( -4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -3, 3, -13 )
 
 [node name="TRGPTile3" parent="TRPGTiles" instance=ExtResource( 2 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0, -1 )
@@ -103,13 +102,13 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 1, -9 )
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, 1 )
 
 [node name="TRGPTile71" parent="TRPGTiles" instance=ExtResource( 2 )]
-transform = Transform( -4.37114e-008, 0, -1, 0, 1, 0, 1, 0, -4.37114e-008, -3, 3, -11 )
+transform = Transform( -4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -3, 3, -11 )
 
 [node name="TRGPTile119" parent="TRPGTiles" instance=ExtResource( 2 )]
-transform = Transform( -4.37114e-008, 0, -1, 0, 1, 0, 1, 0, -4.37114e-008, -3, 2, -11 )
+transform = Transform( -4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -3, 2, -11 )
 
 [node name="TRGPTile123" parent="TRPGTiles" instance=ExtResource( 2 )]
-transform = Transform( -4.37114e-008, 0, -1, 0, 1, 0, 1, 0, -4.37114e-008, -3, 1, -11 )
+transform = Transform( -4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -3, 1, -11 )
 
 [node name="TRGPTile4" parent="TRPGTiles" instance=ExtResource( 2 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0, 1 )
@@ -127,13 +126,13 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0, -9 )
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, -3 )
 
 [node name="TRGPTile82" parent="TRPGTiles" instance=ExtResource( 2 )]
-transform = Transform( -4.37114e-008, 0, -1, 0, 1, 0, 1, 0, -4.37114e-008, 1, 2, -11 )
+transform = Transform( -4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 1, 2, -11 )
 
 [node name="TRGPTile118" parent="TRPGTiles" instance=ExtResource( 2 )]
-transform = Transform( -4.37114e-008, 0, -1, 0, 1, 0, 1, 0, -4.37114e-008, 1, 1, -11 )
+transform = Transform( -4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 1, 1, -11 )
 
 [node name="TRGPTile117" parent="TRPGTiles" instance=ExtResource( 2 )]
-transform = Transform( -4.37114e-008, 0, -1, 0, 1, 0, 1, 0, -4.37114e-008, 1, 3, -11 )
+transform = Transform( -4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 1, 3, -11 )
 
 [node name="TRGPTile26" parent="TRPGTiles" instance=ExtResource( 2 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, -5 )
@@ -145,7 +144,7 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, -7 )
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7, 0, -3 )
 
 [node name="TRGPTile95" parent="TRPGTiles" instance=ExtResource( 2 )]
-transform = Transform( -4.37114e-008, 0, -1, 0, 1, 0, 1, 0, -4.37114e-008, 1, 3, -17 )
+transform = Transform( -4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 1, 3, -17 )
 
 [node name="TRGPTile74" parent="TRPGTiles" instance=ExtResource( 2 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, -9 )
@@ -184,13 +183,13 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -11, 0, -5 )
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, 3 )
 
 [node name="TRGPTile83" parent="TRPGTiles" instance=ExtResource( 2 )]
-transform = Transform( -4.37114e-008, 0, -1, 0, 1, 0, 1, 0, -4.37114e-008, -5, 3, -11 )
+transform = Transform( -4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -5, 3, -11 )
 
 [node name="TRGPTile120" parent="TRPGTiles" instance=ExtResource( 2 )]
-transform = Transform( -4.37114e-008, 0, -1, 0, 1, 0, 1, 0, -4.37114e-008, -5, 2, -11 )
+transform = Transform( -4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -5, 2, -11 )
 
 [node name="TRGPTile124" parent="TRPGTiles" instance=ExtResource( 2 )]
-transform = Transform( -4.37114e-008, 0, -1, 0, 1, 0, 1, 0, -4.37114e-008, -5, 1, -11 )
+transform = Transform( -4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -5, 1, -11 )
 
 [node name="TRGPTile5" parent="TRPGTiles" instance=ExtResource( 2 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0, 3 )
@@ -205,7 +204,7 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0, -7 )
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, 3 )
 
 [node name="TRGPTile90" parent="TRPGTiles" instance=ExtResource( 2 )]
-transform = Transform( -4.37114e-008, 0, -1, 0, 1, 0, 1, 0, -4.37114e-008, -5, 3, -13 )
+transform = Transform( -4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -5, 3, -13 )
 
 [node name="TRGPTile6" parent="TRPGTiles" instance=ExtResource( 2 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 3 )
@@ -217,31 +216,31 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, -3 )
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, -3 )
 
 [node name="TRGPTile91" parent="TRPGTiles" instance=ExtResource( 2 )]
-transform = Transform( -4.37114e-008, 0, -1, 0, 1, 0, 1, 0, -4.37114e-008, 1, 3, -15 )
+transform = Transform( -4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 1, 3, -15 )
 
 [node name="TRGPTile42" parent="TRPGTiles" instance=ExtResource( 2 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -11, 0, -3 )
 
 [node name="TRGPTile93" parent="TRPGTiles" instance=ExtResource( 2 )]
-transform = Transform( -4.37114e-008, 0, -1, 0, 1, 0, 1, 0, -4.37114e-008, 1, 3, -21 )
+transform = Transform( -4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 1, 3, -21 )
 
 [node name="TRGPTile38" parent="TRPGTiles" instance=ExtResource( 2 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, -3 )
 
 [node name="TRGPTile100" parent="TRPGTiles" instance=ExtResource( 2 )]
-transform = Transform( -4.37114e-008, 0, -1, 0, 1, 0, 1, 0, -4.37114e-008, 1, 3, -13 )
+transform = Transform( -4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 1, 3, -13 )
 
 [node name="TRGPTile44" parent="TRPGTiles" instance=ExtResource( 2 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9, 0, -3 )
 
 [node name="TRGPTile97" parent="TRPGTiles" instance=ExtResource( 2 )]
-transform = Transform( -4.37114e-008, 0, -1, 0, 1, 0, 1, 0, -4.37114e-008, 1, 3, -19 )
+transform = Transform( -4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 1, 3, -19 )
 
 [node name="TRGPTile53" parent="TRPGTiles" instance=ExtResource( 2 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9, 2, 3 )
 
 [node name="TRGPTile107" parent="TRPGTiles" instance=ExtResource( 2 )]
-transform = Transform( -4.37114e-008, 0, -1, 0, 1, 0, 1, 0, -4.37114e-008, -5, 5, -19 )
+transform = Transform( -4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -5, 5, -19 )
 
 [node name="TRGPTile62" parent="TRPGTiles" instance=ExtResource( 2 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 2, -13 )
@@ -250,19 +249,19 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 2, -13 )
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, -3 )
 
 [node name="TRGPTile94" parent="TRPGTiles" instance=ExtResource( 2 )]
-transform = Transform( -4.37114e-008, 0, -1, 0, 1, 0, 1, 0, -4.37114e-008, 1, 3, -15 )
+transform = Transform( -4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 1, 3, -15 )
 
 [node name="TRGPTile43" parent="TRPGTiles" instance=ExtResource( 2 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -11, 0, -3 )
 
 [node name="TRGPTile96" parent="TRPGTiles" instance=ExtResource( 2 )]
-transform = Transform( -4.37114e-008, 0, -1, 0, 1, 0, 1, 0, -4.37114e-008, 1, 3, -21 )
+transform = Transform( -4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 1, 3, -21 )
 
 [node name="TRGPTile52" parent="TRPGTiles" instance=ExtResource( 2 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -11, 2, 3 )
 
 [node name="TRGPTile66" parent="TRPGTiles" instance=ExtResource( 2 )]
-transform = Transform( -4.37114e-008, 0, -1, 0, 1, 0, 1, 0, -4.37114e-008, -5, 5, -21 )
+transform = Transform( -4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -5, 5, -21 )
 
 [node name="TRGPTile58" parent="TRPGTiles" instance=ExtResource( 2 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 2, -13 )
@@ -271,7 +270,7 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 2, -13 )
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 1, 3 )
 
 [node name="TRGPTile92" parent="TRPGTiles" instance=ExtResource( 2 )]
-transform = Transform( -4.37114e-008, 0, -1, 0, 1, 0, 1, 0, -4.37114e-008, -5, 4, -15 )
+transform = Transform( -4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -5, 4, -15 )
 
 [node name="TRGPTile7" parent="TRPGTiles" instance=ExtResource( 2 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 5 )
@@ -283,19 +282,19 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, -1 )
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, -1 )
 
 [node name="TRGPTile24" parent="TRPGTiles" instance=ExtResource( 2 )]
-transform = Transform( -4.37114e-008, 0, -1, 0, 1, 0, 1, 0, -4.37114e-008, -1, 3, -15 )
+transform = Transform( -4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -1, 3, -15 )
 
 [node name="TRGPTile45" parent="TRPGTiles" instance=ExtResource( 2 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -11, 1, -1 )
 
 [node name="TRGPTile98" parent="TRPGTiles" instance=ExtResource( 2 )]
-transform = Transform( -4.37114e-008, 0, -1, 0, 1, 0, 1, 0, -4.37114e-008, -1, 4, -21 )
+transform = Transform( -4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -1, 4, -21 )
 
 [node name="TRGPTile54" parent="TRPGTiles" instance=ExtResource( 2 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -11, 2, 5 )
 
 [node name="TRGPTile108" parent="TRPGTiles" instance=ExtResource( 2 )]
-transform = Transform( -4.37114e-008, 0, -1, 0, 1, 0, 1, 0, -4.37114e-008, -7, 5, -21 )
+transform = Transform( -4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -7, 5, -21 )
 
 [node name="TRGPTile63" parent="TRPGTiles" instance=ExtResource( 2 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 1, -11 )
@@ -304,7 +303,7 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 1, -11 )
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 2, 5 )
 
 [node name="TRGPTile101" parent="TRPGTiles" instance=ExtResource( 2 )]
-transform = Transform( -4.37114e-008, 0, -1, 0, 1, 0, 1, 0, -4.37114e-008, -7, 5, -15 )
+transform = Transform( -4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -7, 5, -15 )
 
 [node name="TRGPTile8" parent="TRPGTiles" instance=ExtResource( 2 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, 3 )
@@ -313,19 +312,19 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, 3 )
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, -1 )
 
 [node name="TRGPTile103" parent="TRPGTiles" instance=ExtResource( 2 )]
-transform = Transform( -4.37114e-008, 0, -1, 0, 1, 0, 1, 0, -4.37114e-008, -1, 3, -13 )
+transform = Transform( -4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -1, 3, -13 )
 
 [node name="TRGPTile46" parent="TRPGTiles" instance=ExtResource( 2 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9, 1, -1 )
 
 [node name="TRGPTile99" parent="TRPGTiles" instance=ExtResource( 2 )]
-transform = Transform( -4.37114e-008, 0, -1, 0, 1, 0, 1, 0, -4.37114e-008, -1, 4, -19 )
+transform = Transform( -4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -1, 4, -19 )
 
 [node name="TRGPTile55" parent="TRPGTiles" instance=ExtResource( 2 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9, 2, 5 )
 
 [node name="TRGPTile110" parent="TRPGTiles" instance=ExtResource( 2 )]
-transform = Transform( -4.37114e-008, 0, -1, 0, 1, 0, 1, 0, -4.37114e-008, -7, 5, -19 )
+transform = Transform( -4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -7, 5, -19 )
 
 [node name="TRGPTile65" parent="TRPGTiles" instance=ExtResource( 2 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 1, -11 )
@@ -334,7 +333,7 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 1, -11 )
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 1, 5 )
 
 [node name="TRGPTile102" parent="TRPGTiles" instance=ExtResource( 2 )]
-transform = Transform( -4.37114e-008, 0, -1, 0, 1, 0, 1, 0, -4.37114e-008, -7, 4, -13 )
+transform = Transform( -4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -7, 4, -13 )
 
 [node name="TRGPTile9" parent="TRPGTiles" instance=ExtResource( 2 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0, 1 )
@@ -358,25 +357,25 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 2, -9 )
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, -1 )
 
 [node name="TRGPTile104" parent="TRPGTiles" instance=ExtResource( 2 )]
-transform = Transform( -4.37114e-008, 0, -1, 0, 1, 0, 1, 0, -4.37114e-008, -1, 3, -11 )
+transform = Transform( -4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -1, 3, -11 )
 
 [node name="TRGPTile121" parent="TRPGTiles" instance=ExtResource( 2 )]
-transform = Transform( -4.37114e-008, 0, -1, 0, 1, 0, 1, 0, -4.37114e-008, -1, 2, -11 )
+transform = Transform( -4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -1, 2, -11 )
 
 [node name="TRGPTile126" parent="TRPGTiles" instance=ExtResource( 2 )]
-transform = Transform( -4.37114e-008, 0, -1, 0, 1, 0, 1, 0, -4.37114e-008, -1, 1, -11 )
+transform = Transform( -4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -1, 1, -11 )
 
 [node name="TRGPTile47" parent="TRPGTiles" instance=ExtResource( 2 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7, 0, -1 )
 
 [node name="TRGPTile69" parent="TRPGTiles" instance=ExtResource( 2 )]
-transform = Transform( -4.37114e-008, 0, -1, 0, 1, 0, 1, 0, -4.37114e-008, -1, 3, -17 )
+transform = Transform( -4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -1, 3, -17 )
 
 [node name="TRGPTile48" parent="TRPGTiles" instance=ExtResource( 2 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7, 2, 5 )
 
 [node name="TRGPTile67" parent="TRPGTiles" instance=ExtResource( 2 )]
-transform = Transform( -4.37114e-008, 0, -1, 0, 1, 0, 1, 0, -4.37114e-008, -7, 5, -17 )
+transform = Transform( -4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -7, 5, -17 )
 
 [node name="TRGPTile73" parent="TRPGTiles" instance=ExtResource( 2 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, -7 )
@@ -385,13 +384,13 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, -7 )
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, 5 )
 
 [node name="TRGPTile105" parent="TRPGTiles" instance=ExtResource( 2 )]
-transform = Transform( -4.37114e-008, 0, -1, 0, 1, 0, 1, 0, -4.37114e-008, -7, 3, -11 )
+transform = Transform( -4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -7, 3, -11 )
 
 [node name="TRGPTile122" parent="TRPGTiles" instance=ExtResource( 2 )]
-transform = Transform( -4.37114e-008, 0, -1, 0, 1, 0, 1, 0, -4.37114e-008, -7, 2, -11 )
+transform = Transform( -4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -7, 2, -11 )
 
 [node name="TRGPTile125" parent="TRPGTiles" instance=ExtResource( 2 )]
-transform = Transform( -4.37114e-008, 0, -1, 0, 1, 0, 1, 0, -4.37114e-008, -7, 1, -11 )
+transform = Transform( -4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -7, 1, -11 )
 
 [node name="TRPGCamera" parent="." instance=ExtResource( 3 )]
 transform = Transform( 0.707107, 0.5, -0.5, 0, 0.707107, 0.707107, 0.707107, -0.5, 0.5, 0, 0, 0 )
@@ -409,9 +408,14 @@ move_range = 6
 jump_height = 2
 
 [node name="TRPGAlly2" parent="TRPGAllies" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9, 2, 1 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.25995, -0.0500841, -1.06154 )
 move_range = 4
 jump_height = 2
+
+[node name="TRPGAlly4" parent="TRPGAllies" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9, 2, 1 )
+move_range = 4
+jump_height = 3
 
 [node name="TRPGEnemies" type="Spatial" parent="."]
 
